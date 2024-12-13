@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Open+Sans:ital@0;1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Open+Sans:ital@1&display=swap');
+@font-face {
+    font-family: "Avenir Next Rounded Std";
+    src: url("/font/Avenir/AvenirNextRoundedStd-Reg.ttf");
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("/font/Myriad/MYRIADPRO-BOLD.OTF");
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("/font/Myriad/MYRIADPRO-REGULAR.OTF");
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Open+Sans:ital@0;1&display=swap'); */
+/* @font-face {
+    font-family: "Proxima Nova";
+    src: url("../font/proxima/Proxima-NovaBold.otf");
+    src: url("../font/proxima/ProximaNovaRegular.otf");
+} */
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../font/Proxima/proximanova-regular.otf');
+}
+/* @font-face {
+    font-family: "Proxima Nova Bold";
+    src: url("../font/proxima/Proxima-NovaBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: url("../font/proxima/ProximaNovaRegular.otf") format("opentype");
+} */

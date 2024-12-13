@@ -1,0 +1,480 @@
+:root {
+    --yasil: #53d153;
+}
+h1{
+    font: bold 2em Montserrat;
+    color: #fff;
+}
+h2{
+    font: 1.2em  "Montserrat";
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #828181;
+}
+h3{
+    font: bold 1.5em "Proxima Nova" ;
+    color: #828181; 
+    padding: 1em 0;
+    text-transform: capitalize;
+
+}
+h4{
+    font: 1em "Proxima Nova";
+    color: #fff;
+}
+h5{
+    font: 1em "Proxima Nova";
+    color: #444;
+}
+h6{
+    font: 1em "Open Sans";
+    color: #b7b3b3;
+}
+main section hr {
+    border: none;
+    width: 43px;
+    height: 2px;
+    background: #818181;
+} 
+header{
+    background: url('/img/headerbg.jpg') center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+nav { padding: 5px 30px;}
+menu li { 
+    padding: 0 13px; 
+    font: 1em 'Proxima Nova';
+    color: #fff;
+    white-space: nowrap;
+}
+#search{
+    display: flex;
+    
+}
+#search button img{ height: 20px;}
+#search input{ border-radius: 1em 0 0 1em; padding: 5px 15px;}
+#search button{ border-radius: 0 1em 1em 0;}
+#search input, #search button{
+    border: none;
+    outline: none; 
+    background-color: #ffffffcd;
+    height: 27px;
+}
+#title button{
+    font: 1.4em "Proxima Nova";
+    text-transform: uppercase;
+    border: none;
+    background-color: var(--yasil);
+    padding: 13px 30px;
+    border-radius: 25px;
+    color: #fff;
+}
+#scroll {
+    padding: 10px 0;
+}
+#scroll a{
+    display: block;
+    font: 1em  "Proxima Nova";
+    color: #111;
+    text-align: center;
+    background-color: #ffffffcd;
+    padding: 5px 30px;
+    border-radius: 1em;
+
+}
+
+.bgag{ background-color: #fff;}
+.bgyasil{background-color: var(--yasil);}
+.bgboz { background: #f1f1f1 }
+
+.txtag{ color: #fff;}
+.txtboz{color: #828181;}
+.txtyasil{color: #207b20;}
+main section{
+    padding: 40px 10px;
+    text-align: center;
+}
+
+.bgyasil h2{
+    color: #207b20;
+}
+.bgyasil hr { background: #1f7b1f }
+.bgyasil h6{  color: #2b9b2b;}
+
+.iconfr{
+    width: 142px;
+    height: 142px;
+    border-radius: 30px;
+    background-color: #e0f3e0;
+    display: flex;
+    margin: auto;
+}
+.iconfr i{
+    margin: auto;
+    font-size: 4.5em;
+    color: var(--yasil);
+}
+#whatwedo .row {
+    padding: 48px 0;
+}
+#whatwedo .row article {
+    padding: 24px 15px;
+}
+#whatwedo .row article p{
+    font: 1em Montserrat;
+    color: #828181;
+}
+#whatwedo .row article a{
+    display: inline-block;
+    background-color: var(--yasil);
+    padding: 8px 20px;
+    font: bold 1em "Proxima Nova";
+    color: #fff;
+    border-radius: 1em;
+    margin: 26px 0 0 0;
+}
+#btn3{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 40px 0;
+}
+#btn3 button{
+    font: 1em "Proxima Nova";
+
+    color: #2b9b2b;
+    background: #fff;
+    border: 1px solid #2b9b2b ;  
+    padding: 10px 16px;
+}
+#btn3 button.active, #btn3 button:hover{
+    background: #2b9b2b;
+    color: #fff; 
+}
+#btn3 button:first-child{border-radius: 20px 0 0 20px;}
+#btn3 button:last-child{border-radius:  0 20px  20px 0; }
+#galery img{
+    width: 100%;
+    padding:  1em;
+}
+#work-a{padding: 40px 0 10px;}
+#work-a a{
+    font: 1.1em "Proxima Nova";
+    color: #fff;
+    padding: 12px 20px;
+    background: #2b9b2b;
+    border-radius: 21px;
+}
+#testimonialtext{
+    font: 1em "Proxima Nova";
+    color: #444;
+    max-width: 450px;
+    margin: auto;
+    padding-top: 60px;
+}
+#herp{padding-right: 8px;}
+#testbottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    p{
+        font: bold 1em "Proxima Nova";
+        color: #ccc;
+    }
+    h5{
+        text-align: start;
+    }
+}
+#testbottom #herp img{
+        height: 50px;
+        width: 50px;
+        padding: 3px;
+        border-radius: 50%;
+        border: 1px solid #e1e1e1; 
+}
+#happyclient{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    /* flex-direction: column; */
+    /* width: 90vw; */
+    padding: 70px 0 60px;
+}
+#happyclient img{
+    width: 200px;
+    height: 100px;
+    /* filter: grayscale(100%) opacity(50%) */
+    filter: grayscale(100%);
+    opacity: 0.6; 
+    transition: 0.3s;
+    padding: 10px 30px;
+}
+#client-a{padding-bottom: 30px;}
+#client-a a{
+    font: 1.1em "Proxima Nova";
+    color: #a59d9d;
+    padding: 12px 20px;
+    background: #dddcdc;
+    border-radius: 21px;
+}
+.endsec{
+    padding: 40px 0 0 ;
+    h6{
+        padding: 0 10px;
+    }
+}
+.team{ margin-top: 50px;}
+.team .teamimg{ 
+    background-color: #fff;
+    border-radius: 50%;
+    width: 124px;
+    height: 124px;
+    margin: auto;
+    overflow: hidden;    
+}
+.team .teamimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin-top: 4px;
+}
+.team hr{
+    width: 1px;
+    height: 35px;    
+}
+.social{
+    background-color: #c5e9c5;
+    padding: 5px;
+    border-radius: 1em;
+    max-width: 100px;
+    margin: 10px auto 60px;
+    display: flex;
+    justify-content: center;
+}
+.social a:nth-child(1){
+    color: #FE008E;
+}
+.social a:nth-child(2){
+    color: #2FABEA;
+}
+.social a:nth-child(3){
+    color: #24A3F1;
+}
+.social i{
+    font-size: 20px;
+    margin: 5px;
+}
+#endbottom{
+    width: 100%;
+    background-color: #3eba3e;
+    padding: 25px 0;
+}
+#endbottom button{
+    padding: 10px 20px;
+    font: 300 1.1em "Proxima Nova";
+    color: #fff;
+    background-color: #53d153;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+}
+#ftop{
+    background-color: #333;
+    padding: 30px 10px ;
+}
+#ftop h2{
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #ddd;
+    text-align: center;
+}
+#ftop hr{ 
+    width: 30px;
+    height: 2px;
+    background: #ddd;
+}
+#ftop p{
+    font: 1em "Proxima Nova";
+    color: #ccc;
+    text-align: center;
+}
+#ftop .social{
+    background-color: #e6e7e6;
+}
+#ftop .recent img{
+    height: 53px;
+    width: 53px;
+}
+#ftop .recent{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+#ftop .recent .recentp{
+    align-content: center;
+    padding-left: 5px;
+    .p1{
+        font: 1em "Montserrat";
+        color: #ccc;
+        padding-bottom:5px ;
+    }
+    .p2{
+        font: .75em "Montserrat";
+        color: #fff;
+        text-align: center;
+        width: 80px;
+        border-radius: 2px;
+        text-transform: uppercase;
+    }
+    #magazine{background-color: #53d153;}
+    #ui{ background-color: #ffba00;}
+    #photography{ background-color: #089cea; width: 107px;}
+    #book{ background-color: #f34c03;}
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    input,textarea{
+        padding: 10px;
+        margin: 2px 0;
+        background-color: #444;
+        border: none;
+    }
+    button{
+        font: .9em "Proxima Nova";
+        color: #fff;
+        text-transform: uppercase;
+        background-color: var(--yasil);
+        border: none;
+        border-radius: 0 0 2px 2px;
+    }
+}
+#contact form input:first-child{
+    border-radius: 2px 2px 0 0;
+    margin-top: 25px;
+}
+.contactp p{
+    font: .9em "Proxima Nova";
+    color: #ccc;
+    text-align: center;
+}
+#ftop div:nth-child(1) p{ padding-top: 20px;}
+
+.fcenter{
+    background-color: #212121;
+    padding: 25px 0;
+}
+.fcenter hr{
+    width: 30px;
+    height: 2px;
+    background: #0f0f0f;
+    border: none;
+}
+.fcenter h2{
+    font: 1em "Montserrat";
+    letter-spacing: 3px;
+    color: #101010;
+    text-align: center;
+}
+#frow{
+    display: flex;
+    flex-direction: column;
+    img{
+        padding: 20px;
+        margin: auto;
+    }
+}
+#fbottom{
+    background-color: #111;
+    h2{
+        font: .8em "Proxima Nova";
+        color: #fff;
+        text-align: center;
+        text-transform: lowercase;
+        padding: 10px 0;
+    }
+}
+@media only screen and (min-width:768px) {
+    header nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    } 
+    header nav menu{
+        order: -1;
+        display: flex;
+        flex: 1 1 40% ;
+    }
+    #logo { 
+        flex: 1 1 20%;
+    } 
+    #search{
+        flex: 1 1 40%;
+        justify-content: end;
+    }
+    menu li{
+        padding: 0 13px;
+    }
+    h1{font-size: 3.4em;}
+    menu li a.active, menu li a:hover{
+        border-top: 5px solid var(--yasil);
+        font-weight: bold;
+    }
+    #whatwedo .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #whatwedo .row article { 
+        flex: 0 1 350px; 
+        /* margin: 0 56px; */
+    }
+    .artmrgn{ margin: 0 56px;}
+    #galery{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 950px;
+        margin: auto;
+    }
+    #galery img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+    }
+    #happyclient{
+        max-width: 900px;
+    }
+    #happyclient img:hover{
+        filter: grayscale(0%);
+        opacity: 1; 
+    }
+    #teams{
+        display: flex;
+        max-width: 950px;
+        /* flex-wrap: wrap; */
+        
+        justify-content: space-around;
+        margin: auto;
+        
+    }
+    #ftop{
+        display: flex;
+    }
+    .footertop{
+        width: 33.33%;
+        /* padding: 0 5px ; */
+    }
+    #frow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-top: 25px;
+    }
+}
